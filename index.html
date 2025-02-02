@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-indigo-300 flex flex-col justify-center items-center h-screen w-screen">
+  <div id="status" class="mt-6 font-semibold text-2xl p-3 border-2 rounded-xl text-white bg-green-500 hover:bg-green-700 hover:shadow-2xl mb-7 hidden" ></div>
+  <div class="text-4xl font-semibold p-4 border-2 border-black rounded-4xl mb-7 bg-yellow-300 text-red-600 shadow-lg ">TIC TAC TOE GAME</div>
+<div class="grid grid-cols-3 gap-4 text-center ">
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="0" onclick="onClick(0)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="1" onclick="onClick(1)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="2" onclick="onClick(2)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="3" onclick="onClick(3)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="4" onclick="onClick(4)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="5" onclick="onClick(5)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="6" onclick="onClick(6)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="7" onclick="onClick(7)"></div>
+<div class="w-[100px] h-[100px] bg-slate-100 rounded-lg hover:shadow-2xl border-2 border-gray-500 hover:bg-slate-200 hover:border-black text-5xl flex justify-center items-center square" id="8" onclick="onClick(8)"></div>
+
+</div>
+<!-- <div id="status" class="mt-6 font-semibold text-xl 
+            text-center"></div> -->
+        <div class="flex justify-center">
+<button class="mt-6 font-semibold text-2xl p-3 border-2 rounded-xl text-white bg-green-500 hover:bg-green-700 hover:shadow-2xl " onclick="restartGame()">NEW GAME</button>
+</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
